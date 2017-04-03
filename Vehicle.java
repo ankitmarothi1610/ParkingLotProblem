@@ -22,11 +22,19 @@ public class Vehicle {
 	}
 	
 	public boolean isValidRegistrationNumber(String reg_no) {
-		boolean isValid = false;
+		// Logic to check the valid registration number goes here
+		// Logic not added since, the details about registration number is not given
+		boolean isValid = true;
 		return isValid;
 	}
 	public boolean isValidColour(String colour) {
-		boolean isValid = false;
+		// Logic to check the valid colour goes here
+		// Logic not added since, the details about car colour is not given
+		boolean isValid = true;
 		return isValid;
+	}
+	
+	public void printVehicle() {
+		System.out.println(car_colour + "\t" + reg_no);
 	}
 }
